@@ -19,4 +19,4 @@ Generative models enhance neuroimaging by enabling data augmentation, quality im
 
 ## 📊 Usage
 
-Coming soon — code will be released upon paper acceptance.
+python run run_wasabi.py
