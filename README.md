@@ -20,3 +20,6 @@ Generative models enhance neuroimaging by enabling data augmentation, quality im
 ## 📊 Usage
 
 python run run_wasabi.py
+
+## Citation
+> Jafrasteh, Bahram, et al. "WASABI: A Metric for Evaluating Morphometric Plausibility of Synthetic Brain MRIs." International Conference on Medical Image Computing and Computer-Assisted Intervention. Cham: Springer Nature Switzerland, 2025.
