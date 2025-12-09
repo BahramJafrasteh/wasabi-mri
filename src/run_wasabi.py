@@ -5,7 +5,7 @@ def main():
     use_all_rois = True
 
     adni_vol, adni_scale = load_adni_volumes("ADNI_NC_data.csv", use_all_rois=use_all_rois)
-    uk_vol, uk_scale = load_uk_dataset('ukbiobank_vol.csv', '/midtier/sablab/scratch/baj4003/pycharmprojects/asFCM/ADNI/ukbiobank_qc.csv',
+    uk_vol, uk_scale = load_uk_dataset('ukbiobank_vol.csv', 'ADNI/ukbiobank_qc.csv',
                                        use_all_rois=True, adni_scale=adni_scale, nmax=1000)
 
     brainsyn_vol = load_brainsyn_volumes(
